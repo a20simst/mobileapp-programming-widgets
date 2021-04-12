@@ -9,10 +9,35 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Välkommen!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+   <EditText
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginTop="40dp"
+       android:hint="Skriv text här:"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/knapp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Klicka här"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
