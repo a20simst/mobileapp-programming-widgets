@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-Bilder läggs i samma mapp som markdown-filen.
+
 
 ![](bild.png)
 
